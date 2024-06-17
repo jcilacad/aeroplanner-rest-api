@@ -103,9 +103,9 @@ To stop the docker containers at once run `docker compose down` and add  `--volu
 
 Follow the instructions below to push the docker image in the GitHub Container Registry
 1. Create personal access token in GitHub via Settings / Developer settings / Personal access tokens
-2. Tag the image running `docker build -t ghcr.io/jcilacad/aeroplanner-rest-api:latest -t ghcr.io/jcilacad/aeroplanner-rest-api:0.0.1-SNAPSHOT .`
+2. Tag the image running `docker build -t ghcr.io/jcilacad/aeroplanner-rest-api:latest -t ghcr.io/jcilacad/aeroplanner-rest-api:1.0.0 .`
 3. Login to registry like `docker login ghcr.io -u jcilacad` providing also the personal access token when prompted
-4. Push image to registry : `docker push ghcr.io/jcilacad/aeroplanner-rest-api:latest ghcr.io/jcilacad/aeroplanner-rest-api:0.0.1-SNAPSHOT`
+4. Push image to registry : `docker push ghcr.io/jcilacad/aeroplanner-rest-api:latest ghcr.io/jcilacad/aeroplanner-rest-api:1.0.0`
 
 ## Run unit tests
 

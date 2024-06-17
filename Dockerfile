@@ -17,4 +17,4 @@ COPY target/aeroplanner-rest-api*.jar .
 EXPOSE 8005
 
 # Command to run the Spring Boot application
-CMD ["java", "-jar", "aeroplanner-rest-api-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "aeroplanner-rest-api-1.0.0.jar"]

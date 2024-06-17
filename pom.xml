@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.projects</groupId>
     <artifactId>aeroplanner-rest-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>aeroplanner-rest-api</name>
     <description>Airline Reservation System RESTful API</description>
     <properties>
